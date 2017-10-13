@@ -20,25 +20,6 @@ body {
   width: 100%;
 }
 
-p, a {
-  font-family: 'Encode Sans Condensed', sans-serif;
-  font-size: 10px;
-}
-
-article {
-  margin: 15px;
-  background-color: #fff;
-}
-
-.hr {
-  border: 1px solid #29b5a9;
-}
-
-.hr-a {
-  border: 1px solid #29b5a9;
-  width: 40px;
-}
-
 h1 {
   font-size: 20;
   margin: 0;
@@ -192,7 +173,9 @@ p,
 li,
 dd,
 dt {
+  font-family: 'Encode Sans Condensed', sans-serif;
   font-size: 16px;
+  color: #21232f;
 }
 
 .hr-h {
@@ -214,14 +197,70 @@ footer a {
   text-decoration: none;
 }
 
+article {
+  margin: 15px;
+  background-color: #fff;
+}
+
+article div {
+  padding: 0 20px 20px 20px;
+}
+
+.share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+}
+
+.share a {
+  text-decoration: none;
+  color: #21232f;
+  font-size: 16px;
+}
+
+.btn-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.hr {
+  border: 1px solid #29b5a9;
+}
+
+.hr-a {
+  border: 1px solid #29b5a9;
+  width: 40px;
+}
+
 .header-principal-article {
   text-align: center;
 }
 
-.header-principal-article a {
-  text-align: center;
+a {
+  color: #28b5a9;
+  font-size: 12px;
 }
 
-.header-principal-article p {
-  text-align: center;
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+a:hover,
+a:focus {
+  border: 0;
+  text-decoration: none;
+}
+
+.white-link {
+  color: #fff;
+  -webkit-tap-highlight-color: white;
 }

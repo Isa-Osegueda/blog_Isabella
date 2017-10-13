@@ -87,5 +87,8 @@ p,
 li,
 dd,
 dt {
-  font-size:16px;
+
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 16px;
+  color: $color-base;
 }

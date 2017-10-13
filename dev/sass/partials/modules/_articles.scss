@@ -1,12 +1,43 @@
+article {
+    margin: 15px;
+    background-color: #fff;
+    
+    div {
+        padding: 0 20px 20px 20px;
+    }
+  }
+
+  .share {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+     a{
+         text-decoration: none;
+         color: $color-base;
+         font-size: 16px;
+     }
+}
+
+.btn-like {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hr {
+    border: 1px solid #29b5a9;
+  }
+  
+.hr-a {
+    border: 1px solid #29b5a9;
+    width: 40px;
+  }
+  
+  
+  
 .header-principal-article {
     text-align: center;
 
+  
+
 }
 
-.header-principal-article a{
-    text-align: center;
-}
-
-.header-principal-article p {
-    text-align: center;
-}
