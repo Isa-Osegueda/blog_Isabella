@@ -1,0 +1,47 @@
+//
+// Base definitions
+//
+
+* {
+  box-sizing: border-box;
+  margin: 1;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+p,a {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 10px;
+ }
+
+article {
+  margin: 15px;
+  background-color: #fff;
+}
+.hr {
+  border: 1px solid #29b5a9;
+}
+
+.hr-a {
+  border: 1px solid #29b5a9;
+  width: 40px;
+}
+
+
+
+
